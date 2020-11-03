@@ -3,4 +3,6 @@
 
 ## Database
 
-- [home](../)
+You can import the sql file into phpmyadmin to get on the first page
+
+- [home](../README.md)

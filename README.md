@@ -1,8 +1,10 @@
 
 # JSXForm for WordPress
 
-- [Codebase (PHP)](./database)
+- [Wordpress (PHP)](./database)
 - [Database (SQL)](./database)
-
-- Stack (Linux Apache MySQL PHP)
-
+- Requirements
+	- Linux 
+	- Apache 
+	- MySQL 
+	- PHP

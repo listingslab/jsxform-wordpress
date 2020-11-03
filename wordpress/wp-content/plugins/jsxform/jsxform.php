@@ -9,16 +9,16 @@
  * that starts the plugin.
  *
  * @link              https://listingslab.com
- * @since             1.0.0
+ * @since             0.0.1
  * @package           Jsxform
  *
  * @wordpress-plugin
  * Plugin Name:       JSXForm
  * Plugin URI:        https://listingslab.com
- * Description:       This is a short description of what the plugin does. It's displayed in the WordPress admin area.
- * Version:           1.0.0
- * Author:            listingslab
- * Author URI:        https://listingslab.com
+ * Description:       Everyone hates forms. This plugin makes them easy and useful
+ * Version:           0.0.1
+ * Author:            Chris Dorward
+ * Author URI:        listingslab.io
  * License:           GPL-2.0+
  * License URI:       http://www.gnu.org/licenses/gpl-2.0.txt
  * Text Domain:       jsxform
@@ -35,7 +35,7 @@ if ( ! defined( 'WPINC' ) ) {
  * Start at version 1.0.0 and use SemVer - https://semver.org
  * Rename this for your plugin and update it as you release new versions.
  */
-define( 'JSXFORM_VERSION', '1.0.0' );
+define( 'JSXFORM_VERSION', '0.0.1' );
 
 /**
  * The code that runs during plugin activation.

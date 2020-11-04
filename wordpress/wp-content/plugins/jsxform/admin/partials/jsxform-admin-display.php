@@ -5,7 +5,7 @@
  *
  * This file is used to markup the admin-facing aspects of the plugin.
  *
- * @link       https://listingslab.com
+ * @link       https://jsxform.web.app/
  * @since      1.0.0
  *
  * @package    Jsxform

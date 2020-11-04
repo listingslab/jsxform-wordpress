@@ -30,6 +30,28 @@ if ( ! defined( 'WPINC' ) ) {
 	die;
 }
 
+
+
+add_action('admin_menu', 'test_plugin_setup_menu');
+ 
+function test_plugin_setup_menu(){
+    add_menu_page( 
+    	'JSXForm Page', 
+    	'JSXForm', 
+    	'manage_options', 
+    	'jsxform', 
+    	'jsxform_admin' 
+    );
+}
+ 
+function jsxform_admin(){
+    echo "<h1>
+    JSXForm Admin
+    </h1>";
+}
+
+
+
 /**
  * Currently plugin version.
  * Start at version 1.0.0 and use SemVer - https://semver.org

@@ -45,9 +45,10 @@ function test_plugin_setup_menu(){
 }
  
 function jsxform_admin(){
-    echo "<h1>
+    echo '<h1>
     JSXForm Admin
-    </h1>";
+    </h1>
+    <p>Add it as a <a href="'.admin_url().'/widgets.php">widget</a></p>';
 }
 
 

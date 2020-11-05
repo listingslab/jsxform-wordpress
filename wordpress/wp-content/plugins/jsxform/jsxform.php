@@ -6,7 +6,7 @@
  * @package           Jsxform
  *
  * @wordpress-plugin
- * Version:           0.0.3
+ * Version:           0.0.4
  * Plugin Name:       JSXForm
  * Description:       Everyone hates forms. This plugin makes them easy and useful
  * Plugin URI:        https://jsxform.web.app/
@@ -21,7 +21,7 @@
 if ( ! defined( 'WPINC' ) ) {
 	die;
 }
-define( 'JSXFORM_VERSION', '0.0.3' );
+define( 'JSXFORM_VERSION', '0.0.4' );
 
 add_action('admin_menu', 'test_plugin_setup_menu');
 function test_plugin_setup_menu(){
@@ -33,9 +33,14 @@ function test_plugin_setup_menu(){
     	'jsxform_admin' 
     );
 }
+
 function jsxform_admin(){
+    $example_form = file_get_contents(plugin_dir_path( __FILE__ ) . 'app/src/exampleForm.jsx');
     echo '<h1>JSXForm Admin</h1>
-    <p>Add it as a <a href="'.admin_url().'/widgets.php">widget</a></p>';
+            <p>Forms are added as widget on <a href="'.admin_url().'/widgets.php">this page</a>. The form gets rendered as a react app using the following JSON object.</p>';
+    echo '<pre>';
+    print_r($example_form);
+    echo '</pre>';
 }
 
 function activate_jsxform() {

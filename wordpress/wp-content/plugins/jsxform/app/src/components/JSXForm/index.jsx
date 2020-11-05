@@ -8,6 +8,7 @@ import InputAttachment from './Inputs/InputAttachment'
 import InputRadio from './Inputs/InputRadio'
 import InputReminder from './Inputs/InputReminder'
 import InputDuration from './Inputs/InputDuration'
+import InputSlider from './Inputs/InputSlider'
 
 export {
 	JSXForm,
@@ -20,4 +21,5 @@ export {
 	InputRadio,
 	InputReminder,
 	InputDuration,
+	InputSlider,
 }

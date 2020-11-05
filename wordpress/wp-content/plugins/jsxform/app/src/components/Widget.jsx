@@ -14,6 +14,7 @@ import {
 } from '@material-ui/core/'
 import { Icon } from '../theme'
 import { JSXForm } from '../components'
+import { contactFormExample } from '../exampleForm'
 
 const useStyles = makeStyles((theme) => ({
   widget: {
@@ -49,19 +50,25 @@ export default function Widget() {
   const classes = useStyles()
   const [expanded, setExpanded] = React.useState(false)
 
-  const title = `JSXForm`
-  const tagline = `Something different innit?`
-
   const handleExpandClick = () => {
     setExpanded(!expanded)
   }
 
+  const {
+    title,
+    description,
+    buttonText,
+    icon,
+  } = contactFormExample
+
   return <Card className={classes.widget}>
       <CardHeader
+        title={title}
+        subheader={description}
         avatar={
           <Avatar aria-label={`JSXForm by listingslab`}
             className={classes.avatar}>
-            <Icon icon={`api`} color={`primary`} />
+            <Icon icon={ icon } color={`primary`} />
           </Avatar>
         }
         action={
@@ -76,15 +83,11 @@ export default function Widget() {
             <Icon icon={'sortdown'} color={`primary`} />
           </IconButton>
         }
-        title={title}
-        subheader={tagline}
+        
       />
       
       <CardContent>
-        <Typography variant={`body2`}>
-          This impressive paella is a perfect party dish and a fun meal to cook together with your
-          guests. Add 1 cup of frozen peas along with the mussels, if you like.
-        </Typography>
+        <JSXForm form={contactFormExample} />
       </CardContent>
 
       <CardActions disableSpacing>
@@ -98,7 +101,7 @@ export default function Widget() {
               console.log ('submit')
             }}>
             <span className={clsx(classes.btnTxt)}>
-              Send
+              { buttonText }
             </span>
             <Icon icon={'send'} color={`error`} />
           </Button>
@@ -109,10 +112,16 @@ export default function Widget() {
       <Collapse in={expanded} timeout="auto" unmountOnExit>
         
         <CardContent>
-          <Typography variant={`h6`}>About JSX Form</Typography>
-          <Typography variant={`body2`}>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi vitae varius ipsum. Phasellus ac orci sit amet nibh ultricies feugiat. Maecenas semper nisl leo, sit amet consequat urna fermentum in. Quisque sit amet dapibus est, a bibendum ex. Donec pellentesque purus nec massa suscipit, nec sollicitudin diam ornare.
+          <Typography variant={`h6`}>
+            About JSX Form
           </Typography>
+          <Typography variant={`body2`}>
+            Forms are added as widget in WordPress admin. They get rendered from the following JSON object
+          </Typography>
+          <pre>
+            { JSON.stringify(contactFormExample, null, 2) }
+          </pre>
+
         </CardContent>
 
       </Collapse>

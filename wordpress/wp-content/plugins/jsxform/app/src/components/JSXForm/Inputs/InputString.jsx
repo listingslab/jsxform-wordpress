@@ -14,7 +14,7 @@ const useStyles = makeStyles(theme => ({
 export default function InputString(props) {
 	
 	const classes = useStyles()
-	const variant = `standard`
+	const variant = `outlined`
 	const { 
 		options,
 		onFormChange,
@@ -37,7 +37,7 @@ export default function InputString(props) {
 					autoFocus={ autoFocus }
 					required={ required }
 					multiline={ multiline ? true : false }
-					rows={ 3 }
+					rows={ 5 }
 					fullWidth
 					disabled={ disabled }
 					variant={ variant }

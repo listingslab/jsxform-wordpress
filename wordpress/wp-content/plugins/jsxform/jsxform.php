@@ -10,8 +10,8 @@
  * Plugin Name:       JSXForm
  * Description:       Everyone hates forms. This plugin makes them easy and useful
  * Plugin URI:        https://jsxform.web.app/
- * Author:            Chris Dorward
- * Author URI:        listingslab.io
+ * Author:            listingslab
+ * Author URI:        https://github.com/listingslab
  * License:           GPL-2.0+
  * License URI:       http://www.gnu.org/licenses/gpl-2.0.txt
  * Text Domain:       jsxform
@@ -55,7 +55,7 @@ require plugin_dir_path( __FILE__ ) . 'includes/class-jsxform.php';
 
 function run_jsxform() {
     require_once plugin_dir_path( __FILE__ ) . 'includes/class-jsxform-widget.php';
-    $widget = new WPDocs_New_Widget();
+    $widget = new JSXForm_Widget();
 	$plugin = new Jsxform();
 	$plugin->run();
 

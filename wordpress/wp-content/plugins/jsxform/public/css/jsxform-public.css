@@ -2,3 +2,7 @@
  * All of the CSS for your public-facing functionality should be
  * included in this file.
  */
+
+ .jsxform_widget{
+ 	border: 1px solid black;
+ }

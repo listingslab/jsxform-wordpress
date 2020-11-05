@@ -6,7 +6,7 @@
  * @package           Jsxform
  *
  * @wordpress-plugin
- * Version:           0.0.2
+ * Version:           0.0.3
  * Plugin Name:       JSXForm
  * Description:       Everyone hates forms. This plugin makes them easy and useful
  * Plugin URI:        https://jsxform.web.app/
@@ -21,7 +21,7 @@
 if ( ! defined( 'WPINC' ) ) {
 	die;
 }
-define( 'JSXFORM_VERSION', '0.0.2' );
+define( 'JSXFORM_VERSION', '0.0.3' );
 
 add_action('admin_menu', 'test_plugin_setup_menu');
 function test_plugin_setup_menu(){

@@ -1,0 +1,63 @@
+export const medicationForm = {
+	title: `Medications`,
+	reduxKey: 'Medication',
+	description: `Manage your prescriptions and medications`,
+	route: `/personal-health/medications/`,
+	icon: `medication`,
+	dataShape: {
+        resourceType: `Medication`,
+        patientId: `String`,
+        id: 0,
+        medication: `String`,
+        start: `YYYY-MM-DDTHH:mm:ssZ`,
+        dose: `String`,
+        end: `YYYY-MM-DDTHH:mm:ssZ`,
+        reason: `String`,
+        notes: `String`,
+        attachmentUrls: [`String`, `String`],  
+    },
+	fields: [
+		{
+			required: true,
+			label: `Medication`,
+			// helperText: `What is the name of the medication?`,
+			mapKey: `medication`,
+			type: `InputString`,
+			autoFocus: true,
+		},
+		{
+			required: true,
+			mapKey: `start`,
+			type: `InputDatetime`,
+			dateFormat: `Do MMMM YYYY`,
+			label: `Date Prescribed`,
+			defaultValue: null,
+		},
+		{
+			label: `Dose Information`,
+			// helperText: `How much? eg. 2 tablets when needed`,
+			mapKey: `dose`,
+			type: `InputString`,
+		},
+		{
+			label: `Reason`,
+			// helperText: `What is it for? eg. Migrane`,
+			mapKey: `reason`,
+			type: `InputString`,
+		},
+
+		{
+			mapKey: `end`,
+			type: `InputDatetime`,
+			dateFormat: `Do MMMM YYYY`,
+			label: `Date Finished`,
+			defaultValue: null,
+		},
+        {
+            mapKey: `notes`,
+            type: `InputString`,
+            label: `Notes`,
+            multiline: true,
+        },
+	],
+}

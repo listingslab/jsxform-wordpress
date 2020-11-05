@@ -1,0 +1,1350 @@
+Searching 261 files for "InputDate"
+
+/Users/listingslab/Desktop/Node/wanngi-light/src/components/JSXForm/forms/account/accountForm.jsx:
+   28      {
+   29        id: `account-dob`,
+   30:       type: `InputDate`,
+   31        label: `Date of Birth`,
+   32      },
+
+/Users/listingslab/Desktop/Node/wanngi-light/src/components/JSXForm/forms/account/accountForm.txt:
+   28      {
+   29        id: `account-dob`,
+   30:       type: `InputDate`,
+   31        label: `Date of Birth`,
+   32      },
+
+/Users/listingslab/Desktop/Node/wanngi-light/src/components/JSXForm/forms/account/profileForm.jsx:
+   15      {
+   16        id: `profile-dob`,
+   17:       type: `InputDate`,
+   18        label: `Date of Birth`,
+   19        helperText: `What should we call this profile?`
+
+/Users/listingslab/Desktop/Node/wanngi-light/src/components/JSXForm/forms/activities/cyclingForm.jsx:
+    8          {
+    9              id: `cycling-date`,
+   10:             type: `InputDate`,
+   11              label: `Start Date`,
+   12              required: true,
+
+/Users/listingslab/Desktop/Node/wanngi-light/src/components/JSXForm/forms/activities/otherActivityForm.jsx:
+    8          {
+    9              id: `other-activity-date`,
+   10:             type: `InputDate`,
+   11              label: `Start Date`,
+   12              required: true,
+
+/Users/listingslab/Desktop/Node/wanngi-light/src/components/JSXForm/forms/activities/runningForm.jsx:
+    8          {
+    9              id: `running-date`,
+   10:             type: `InputDate`,
+   11              label: `Start Date`,
+   12              required: true,
+
+/Users/listingslab/Desktop/Node/wanngi-light/src/components/JSXForm/forms/activities/sleepingForm.jsx:
+    7          {
+    8              id: `sleeping-start-date`,
+    9:             type: `InputDate`,
+   10              label: `Start Date`,
+   11              required: true,
+   ..
+   21          {
+   22              id: `sleeping-end-date`,
+   23:             type: `InputDate`,
+   24              label: `End Date`,
+   25              required: true,
+
+/Users/listingslab/Desktop/Node/wanngi-light/src/components/JSXForm/forms/activities/walkingForm.jsx:
+    7          {
+    8              id: `walking-date`,
+    9:             type: `InputDate`,
+   10              label: `Start Date`,
+   11              required: true,
+
+/Users/listingslab/Desktop/Node/wanngi-light/src/components/JSXForm/forms/activities/waterForm.jsx:
+    7          {
+    8              id: `water-date`,
+    9:             type: `InputDate`,
+   10              label: `Start Date`,
+   11              required: true,
+
+/Users/listingslab/Desktop/Node/wanngi-light/src/components/JSXForm/forms/activities/weighingForm.jsx:
+    7          {
+    8              id: `weighing-date`,
+    9:             type: `InputDate`,
+   10              label: `Start Date`,
+   11              required: true,
+
+/Users/listingslab/Desktop/Node/wanngi-light/src/components/JSXForm/forms/personal-health/allergyForm.jsx:
+   55              label: `Identified`,
+   56              mapKey: `dateIdentified`,
+   57:             type: `InputDate`,
+   58              dateFormat: `MMMM  YYYY`,
+   59              defaultValue: null,
+
+/Users/listingslab/Desktop/Node/wanngi-light/src/components/JSXForm/forms/personal-health/appointmentForm.jsx:
+   39              mapKey: `start`,
+   40              required: true,
+   41:             type: `InputDatetime`,
+   42              defaultValue: null,
+   43              dateFormat: `dddd Do MMMM YYYY, h:mm a`,
+
+/Users/listingslab/Desktop/Node/wanngi-light/src/components/JSXForm/forms/personal-health/diagnosticImagingForm.jsx:
+   30              id: `time`,
+   31              mapKey: `observed`,
+   32:             type: `InputDate`,
+   33              dateFormat: `dddd Do MMMM YYYY`,
+   34              defaultValue: null,
+
+/Users/listingslab/Desktop/Node/wanngi-light/src/components/JSXForm/forms/personal-health/hospitalVisitForm.jsx:
+   38              mapKey: `start`,
+   39              required: true,
+   40:             type: `InputDate`,
+   41              label: `Admission Date`,
+   42              dateFormat: `dddd Do MMMM YYYY`,
+   ..
+   46              id: `end`,
+   47              mapKey: `end`,
+   48:             type: `InputDate`,
+   49              label: `Discharge Date`,
+   50              dateFormat: `dddd Do MMMM YYYY`,
+
+/Users/listingslab/Desktop/Node/wanngi-light/src/components/JSXForm/forms/personal-health/immunisationForm.jsx:
+   37              mapKey: `occurred`,
+   38              required: true,
+   39:             type: `InputDate`,
+   40              dateFormat: `dddd Do MMMM YYYY`,
+   41              defaultValue: null,
+
+/Users/listingslab/Desktop/Node/wanngi-light/src/components/JSXForm/forms/personal-health/medicationForm.jsx:
+   29  			required: true,
+   30  			mapKey: `start`,
+   31: 			type: `InputDate`,
+   32  			dateFormat: `Do MMMM YYYY`,
+   33  			label: `Date Prescribed`,
+   ..
+   49  		{
+   50  			mapKey: `end`,
+   51: 			type: `InputDate`,
+   52  			dateFormat: `Do MMMM YYYY`,
+   53  			label: `Date Finished`,
+
+/Users/listingslab/Desktop/Node/wanngi-light/src/components/JSXForm/forms/personal-health/pathologyForm.jsx:
+   29              mapKey: `observed`,
+   30              required: true,
+   31:             type: `InputDate`,
+   32              dateFormat: `dddd Do MMMM YYYY`,
+   33              label: `Date`,
+
+/Users/listingslab/Desktop/Node/wanngi-light/src/components/JSXForm/forms/personal-health/referralForm.jsx:
+   40              dateFormat: `dddd Do MMMM YYYY`,
+   41              required: true,
+   42:             type: `InputDate`,
+   43              defaultValue: null,
+   44              label: `Date Reffered`,
+   ..
+   49              required: true,
+   50              defaultValue: null,
+   51:             type: `InputDate`,
+   52              dateFormat: `dddd Do MMMM YYYY`,
+   53              label: `Expiry Date`,
+
+/Users/listingslab/Desktop/Node/wanngi-light/src/components/JSXForm/forms/personal-health/symptomForm.jsx:
+   35              mapKey: `issued`,
+   36              required: true,
+   37:             type: `InputDatetime`,
+   38              dateFormat: `dddd Do MMMM YYYY, h:mm a`,
+   39              
+
+/Users/listingslab/Desktop/Node/wanngi-light/src/components/JSXForm/index.jsx:
+    2  import Attachments from './Attachments'
+    3  import ViewAttachment from './ViewAttachment'
+    4: import InputDatetime from './Inputs/InputDatetime'
+    5  import InputTime from './Inputs/InputTime'
+    6  import InputString from './Inputs/InputString'
+    .
+   14  	Attachments,
+   15  	ViewAttachment,
+   16: 	InputDatetime,
+   17  	InputTime,
+   18  	InputString,
+
+/Users/listingslab/Desktop/Node/wanngi-light/src/components/JSXForm/Inputs/InputDatetime.jsx:
+   14  }))
+   15  
+   16: export default function InputDatetime(props) {
+   17  	
+   18  	const classes = useStyles()
+
+/Users/listingslab/Desktop/Node/wanngi-light/src/components/JSXForm/JSXForm.jsx:
+    8  import MomentUtils from '@date-io/moment'
+    9  import {
+   10:   InputDatetime,
+   11    InputTime,
+   12    InputString,
+   ..
+   55                                  />
+   56                              break                            
+   57:                     case `InputDatetime`:
+   58:                         field = <InputDatetime 
+   59                                    options={item} 
+   60                                    onFormChange={ onFormChange } 
+
+/Users/listingslab/Desktop/Node/wanngi-light/src/components/JSXForm/README.md:
+   84              id: `dateIdentified`,
+   85              mapKey: `dateIdentified`,
+   86:             type: `InputDatetime`,
+   87              helperText: `DD/MM/YYYY`,
+   88          },
+
+/Users/listingslab/Desktop/Node/wanngi-light/src/pages/PersonalHealth/FormDialog.jsx:
+  123            }
+  124          }
+  125:         if (fields[i].type === `InputDate` || fields[i].type === `InputDatetime`) {
+  126            if (field === fields[i].mapKey){
+  127              const mapKeyEl = document.getElementsByName(fields[i].mapKey)
+
+33 matches across 24 files
+
+
+Searching 261 files for "InputDate"
+
+/Users/listingslab/Desktop/Node/wanngi-light/src/components/JSXForm/forms/account/accountForm.jsx:
+   28      {
+   29        id: `account-dob`,
+   30:       type: `InputDatetime`,
+   31        label: `Date of Birth`,
+   32      },
+
+/Users/listingslab/Desktop/Node/wanngi-light/src/components/JSXForm/forms/account/accountForm.txt:
+   28      {
+   29        id: `account-dob`,
+   30:       type: `InputDate`,
+   31        label: `Date of Birth`,
+   32      },
+
+/Users/listingslab/Desktop/Node/wanngi-light/src/components/JSXForm/forms/account/profileForm.jsx:
+   15      {
+   16        id: `profile-dob`,
+   17:       type: `InputDate`,
+   18        label: `Date of Birth`,
+   19        helperText: `What should we call this profile?`
+
+/Users/listingslab/Desktop/Node/wanngi-light/src/components/JSXForm/forms/activities/cyclingForm.jsx:
+    8          {
+    9              id: `cycling-date`,
+   10:             type: `InputDate`,
+   11              label: `Start Date`,
+   12              required: true,
+
+/Users/listingslab/Desktop/Node/wanngi-light/src/components/JSXForm/forms/activities/otherActivityForm.jsx:
+    8          {
+    9              id: `other-activity-date`,
+   10:             type: `InputDate`,
+   11              label: `Start Date`,
+   12              required: true,
+
+/Users/listingslab/Desktop/Node/wanngi-light/src/components/JSXForm/forms/activities/runningForm.jsx:
+    8          {
+    9              id: `running-date`,
+   10:             type: `InputDate`,
+   11              label: `Start Date`,
+   12              required: true,
+
+/Users/listingslab/Desktop/Node/wanngi-light/src/components/JSXForm/forms/activities/sleepingForm.jsx:
+    7          {
+    8              id: `sleeping-start-date`,
+    9:             type: `InputDate`,
+   10              label: `Start Date`,
+   11              required: true,
+   ..
+   21          {
+   22              id: `sleeping-end-date`,
+   23:             type: `InputDate`,
+   24              label: `End Date`,
+   25              required: true,
+
+/Users/listingslab/Desktop/Node/wanngi-light/src/components/JSXForm/forms/activities/walkingForm.jsx:
+    7          {
+    8              id: `walking-date`,
+    9:             type: `InputDate`,
+   10              label: `Start Date`,
+   11              required: true,
+
+/Users/listingslab/Desktop/Node/wanngi-light/src/components/JSXForm/forms/activities/waterForm.jsx:
+    7          {
+    8              id: `water-date`,
+    9:             type: `InputDate`,
+   10              label: `Start Date`,
+   11              required: true,
+
+/Users/listingslab/Desktop/Node/wanngi-light/src/components/JSXForm/forms/activities/weighingForm.jsx:
+    7          {
+    8              id: `weighing-date`,
+    9:             type: `InputDate`,
+   10              label: `Start Date`,
+   11              required: true,
+
+/Users/listingslab/Desktop/Node/wanngi-light/src/components/JSXForm/forms/personal-health/allergyForm.jsx:
+   55              label: `Identified`,
+   56              mapKey: `dateIdentified`,
+   57:             type: `InputDate`,
+   58              dateFormat: `MMMM  YYYY`,
+   59              defaultValue: null,
+
+/Users/listingslab/Desktop/Node/wanngi-light/src/components/JSXForm/forms/personal-health/appointmentForm.jsx:
+   39              mapKey: `start`,
+   40              required: true,
+   41:             type: `InputDatetime`,
+   42              defaultValue: null,
+   43              dateFormat: `dddd Do MMMM YYYY, h:mm a`,
+
+/Users/listingslab/Desktop/Node/wanngi-light/src/components/JSXForm/forms/personal-health/diagnosticImagingForm.jsx:
+   30              id: `time`,
+   31              mapKey: `observed`,
+   32:             type: `InputDate`,
+   33              dateFormat: `dddd Do MMMM YYYY`,
+   34              defaultValue: null,
+
+/Users/listingslab/Desktop/Node/wanngi-light/src/components/JSXForm/forms/personal-health/hospitalVisitForm.jsx:
+   38              mapKey: `start`,
+   39              required: true,
+   40:             type: `InputDate`,
+   41              label: `Admission Date`,
+   42              dateFormat: `dddd Do MMMM YYYY`,
+   ..
+   46              id: `end`,
+   47              mapKey: `end`,
+   48:             type: `InputDate`,
+   49              label: `Discharge Date`,
+   50              dateFormat: `dddd Do MMMM YYYY`,
+
+/Users/listingslab/Desktop/Node/wanngi-light/src/components/JSXForm/forms/personal-health/immunisationForm.jsx:
+   37              mapKey: `occurred`,
+   38              required: true,
+   39:             type: `InputDate`,
+   40              dateFormat: `dddd Do MMMM YYYY`,
+   41              defaultValue: null,
+
+/Users/listingslab/Desktop/Node/wanngi-light/src/components/JSXForm/forms/personal-health/medicationForm.jsx:
+   29  			required: true,
+   30  			mapKey: `start`,
+   31: 			type: `InputDate`,
+   32  			dateFormat: `Do MMMM YYYY`,
+   33  			label: `Date Prescribed`,
+   ..
+   49  		{
+   50  			mapKey: `end`,
+   51: 			type: `InputDate`,
+   52  			dateFormat: `Do MMMM YYYY`,
+   53  			label: `Date Finished`,
+
+/Users/listingslab/Desktop/Node/wanngi-light/src/components/JSXForm/forms/personal-health/pathologyForm.jsx:
+   29              mapKey: `observed`,
+   30              required: true,
+   31:             type: `InputDate`,
+   32              dateFormat: `dddd Do MMMM YYYY`,
+   33              label: `Date`,
+
+/Users/listingslab/Desktop/Node/wanngi-light/src/components/JSXForm/forms/personal-health/referralForm.jsx:
+   40              dateFormat: `dddd Do MMMM YYYY`,
+   41              required: true,
+   42:             type: `InputDate`,
+   43              defaultValue: null,
+   44              label: `Date Reffered`,
+   ..
+   49              required: true,
+   50              defaultValue: null,
+   51:             type: `InputDate`,
+   52              dateFormat: `dddd Do MMMM YYYY`,
+   53              label: `Expiry Date`,
+
+/Users/listingslab/Desktop/Node/wanngi-light/src/components/JSXForm/forms/personal-health/symptomForm.jsx:
+   35              mapKey: `issued`,
+   36              required: true,
+   37:             type: `InputDatetime`,
+   38              dateFormat: `dddd Do MMMM YYYY, h:mm a`,
+   39              
+
+/Users/listingslab/Desktop/Node/wanngi-light/src/components/JSXForm/index.jsx:
+    2  import Attachments from './Attachments'
+    3  import ViewAttachment from './ViewAttachment'
+    4: import InputDatetime from './Inputs/InputDatetime'
+    5  import InputTime from './Inputs/InputTime'
+    6  import InputString from './Inputs/InputString'
+    .
+   14  	Attachments,
+   15  	ViewAttachment,
+   16: 	InputDatetime,
+   17  	InputTime,
+   18  	InputString,
+
+/Users/listingslab/Desktop/Node/wanngi-light/src/components/JSXForm/Inputs/InputDatetime.jsx:
+   14  }))
+   15  
+   16: export default function InputDatetime(props) {
+   17  	
+   18  	const classes = useStyles()
+
+/Users/listingslab/Desktop/Node/wanngi-light/src/components/JSXForm/JSXForm.jsx:
+    8  import MomentUtils from '@date-io/moment'
+    9  import {
+   10:   InputDatetime,
+   11    InputTime,
+   12    InputString,
+   ..
+   55                                  />
+   56                              break                            
+   57:                     case `InputDatetime`:
+   58:                         field = <InputDatetime 
+   59                                    options={item} 
+   60                                    onFormChange={ onFormChange } 
+
+/Users/listingslab/Desktop/Node/wanngi-light/src/components/JSXForm/README.md:
+   84              id: `dateIdentified`,
+   85              mapKey: `dateIdentified`,
+   86:             type: `InputDatetime`,
+   87              helperText: `DD/MM/YYYY`,
+   88          },
+
+/Users/listingslab/Desktop/Node/wanngi-light/src/pages/PersonalHealth/FormDialog.jsx:
+  123            }
+  124          }
+  125:         if (fields[i].type === `InputDate` || fields[i].type === `InputDatetime`) {
+  126            if (field === fields[i].mapKey){
+  127              const mapKeyEl = document.getElementsByName(fields[i].mapKey)
+
+33 matches across 24 files
+
+
+Searching 261 files for "InputDate"
+
+/Users/listingslab/Desktop/Node/wanngi-light/src/components/JSXForm/forms/account/accountForm.jsx:
+   28      {
+   29        id: `account-dob`,
+   30:       type: `InputDatetime`,
+   31        label: `Date of Birth`,
+   32      },
+
+/Users/listingslab/Desktop/Node/wanngi-light/src/components/JSXForm/forms/account/accountForm.txt:
+   28      {
+   29        id: `account-dob`,
+   30:       type: `InputDate`,
+   31        label: `Date of Birth`,
+   32      },
+
+/Users/listingslab/Desktop/Node/wanngi-light/src/components/JSXForm/forms/account/profileForm.jsx:
+   15      {
+   16        id: `profile-dob`,
+   17:       type: `InputDate`,
+   18        label: `Date of Birth`,
+   19        helperText: `What should we call this profile?`
+
+/Users/listingslab/Desktop/Node/wanngi-light/src/components/JSXForm/forms/activities/cyclingForm.jsx:
+    8          {
+    9              id: `cycling-date`,
+   10:             type: `InputDate`,
+   11              label: `Start Date`,
+   12              required: true,
+
+/Users/listingslab/Desktop/Node/wanngi-light/src/components/JSXForm/forms/activities/otherActivityForm.jsx:
+    8          {
+    9              id: `other-activity-date`,
+   10:             type: `InputDate`,
+   11              label: `Start Date`,
+   12              required: true,
+
+/Users/listingslab/Desktop/Node/wanngi-light/src/components/JSXForm/forms/activities/runningForm.jsx:
+    8          {
+    9              id: `running-date`,
+   10:             type: `InputDate`,
+   11              label: `Start Date`,
+   12              required: true,
+
+/Users/listingslab/Desktop/Node/wanngi-light/src/components/JSXForm/forms/activities/sleepingForm.jsx:
+    7          {
+    8              id: `sleeping-start-date`,
+    9:             type: `InputDate`,
+   10              label: `Start Date`,
+   11              required: true,
+   ..
+   21          {
+   22              id: `sleeping-end-date`,
+   23:             type: `InputDate`,
+   24              label: `End Date`,
+   25              required: true,
+
+/Users/listingslab/Desktop/Node/wanngi-light/src/components/JSXForm/forms/activities/walkingForm.jsx:
+    7          {
+    8              id: `walking-date`,
+    9:             type: `InputDate`,
+   10              label: `Start Date`,
+   11              required: true,
+
+/Users/listingslab/Desktop/Node/wanngi-light/src/components/JSXForm/forms/activities/waterForm.jsx:
+    7          {
+    8              id: `water-date`,
+    9:             type: `InputDate`,
+   10              label: `Start Date`,
+   11              required: true,
+
+/Users/listingslab/Desktop/Node/wanngi-light/src/components/JSXForm/forms/activities/weighingForm.jsx:
+    7          {
+    8              id: `weighing-date`,
+    9:             type: `InputDate`,
+   10              label: `Start Date`,
+   11              required: true,
+
+/Users/listingslab/Desktop/Node/wanngi-light/src/components/JSXForm/forms/personal-health/allergyForm.jsx:
+   55              label: `Identified`,
+   56              mapKey: `dateIdentified`,
+   57:             type: `InputDate`,
+   58              dateFormat: `MMMM  YYYY`,
+   59              defaultValue: null,
+
+/Users/listingslab/Desktop/Node/wanngi-light/src/components/JSXForm/forms/personal-health/appointmentForm.jsx:
+   39              mapKey: `start`,
+   40              required: true,
+   41:             type: `InputDatetime`,
+   42              defaultValue: null,
+   43              dateFormat: `dddd Do MMMM YYYY, h:mm a`,
+
+/Users/listingslab/Desktop/Node/wanngi-light/src/components/JSXForm/forms/personal-health/diagnosticImagingForm.jsx:
+   30              id: `time`,
+   31              mapKey: `observed`,
+   32:             type: `InputDate`,
+   33              dateFormat: `dddd Do MMMM YYYY`,
+   34              defaultValue: null,
+
+/Users/listingslab/Desktop/Node/wanngi-light/src/components/JSXForm/forms/personal-health/hospitalVisitForm.jsx:
+   38              mapKey: `start`,
+   39              required: true,
+   40:             type: `InputDate`,
+   41              label: `Admission Date`,
+   42              dateFormat: `dddd Do MMMM YYYY`,
+   ..
+   46              id: `end`,
+   47              mapKey: `end`,
+   48:             type: `InputDate`,
+   49              label: `Discharge Date`,
+   50              dateFormat: `dddd Do MMMM YYYY`,
+
+/Users/listingslab/Desktop/Node/wanngi-light/src/components/JSXForm/forms/personal-health/immunisationForm.jsx:
+   37              mapKey: `occurred`,
+   38              required: true,
+   39:             type: `InputDate`,
+   40              dateFormat: `dddd Do MMMM YYYY`,
+   41              defaultValue: null,
+
+/Users/listingslab/Desktop/Node/wanngi-light/src/components/JSXForm/forms/personal-health/medicationForm.jsx:
+   29  			required: true,
+   30  			mapKey: `start`,
+   31: 			type: `InputDate`,
+   32  			dateFormat: `Do MMMM YYYY`,
+   33  			label: `Date Prescribed`,
+   ..
+   49  		{
+   50  			mapKey: `end`,
+   51: 			type: `InputDate`,
+   52  			dateFormat: `Do MMMM YYYY`,
+   53  			label: `Date Finished`,
+
+/Users/listingslab/Desktop/Node/wanngi-light/src/components/JSXForm/forms/personal-health/pathologyForm.jsx:
+   29              mapKey: `observed`,
+   30              required: true,
+   31:             type: `InputDate`,
+   32              dateFormat: `dddd Do MMMM YYYY`,
+   33              label: `Date`,
+
+/Users/listingslab/Desktop/Node/wanngi-light/src/components/JSXForm/forms/personal-health/referralForm.jsx:
+   40              dateFormat: `dddd Do MMMM YYYY`,
+   41              required: true,
+   42:             type: `InputDate`,
+   43              defaultValue: null,
+   44              label: `Date Reffered`,
+   ..
+   49              required: true,
+   50              defaultValue: null,
+   51:             type: `InputDate`,
+   52              dateFormat: `dddd Do MMMM YYYY`,
+   53              label: `Expiry Date`,
+
+/Users/listingslab/Desktop/Node/wanngi-light/src/components/JSXForm/forms/personal-health/symptomForm.jsx:
+   35              mapKey: `issued`,
+   36              required: true,
+   37:             type: `InputDatetime`,
+   38              dateFormat: `dddd Do MMMM YYYY, h:mm a`,
+   39              
+
+/Users/listingslab/Desktop/Node/wanngi-light/src/components/JSXForm/index.jsx:
+    2  import Attachments from './Attachments'
+    3  import ViewAttachment from './ViewAttachment'
+    4: import InputDatetime from './Inputs/InputDatetime'
+    5  import InputTime from './Inputs/InputTime'
+    6  import InputString from './Inputs/InputString'
+    .
+   14  	Attachments,
+   15  	ViewAttachment,
+   16: 	InputDatetime,
+   17  	InputTime,
+   18  	InputString,
+
+/Users/listingslab/Desktop/Node/wanngi-light/src/components/JSXForm/Inputs/InputDatetime.jsx:
+   14  }))
+   15  
+   16: export default function InputDatetime(props) {
+   17  	
+   18  	const classes = useStyles()
+
+/Users/listingslab/Desktop/Node/wanngi-light/src/components/JSXForm/JSXForm.jsx:
+    8  import MomentUtils from '@date-io/moment'
+    9  import {
+   10:   InputDatetime,
+   11    InputTime,
+   12    InputString,
+   ..
+   55                                  />
+   56                              break                            
+   57:                     case `InputDatetime`:
+   58:                         field = <InputDatetime 
+   59                                    options={item} 
+   60                                    onFormChange={ onFormChange } 
+
+/Users/listingslab/Desktop/Node/wanngi-light/src/components/JSXForm/README.md:
+   84              id: `dateIdentified`,
+   85              mapKey: `dateIdentified`,
+   86:             type: `InputDatetime`,
+   87              helperText: `DD/MM/YYYY`,
+   88          },
+
+/Users/listingslab/Desktop/Node/wanngi-light/src/pages/PersonalHealth/FormDialog.jsx:
+  123            }
+  124          }
+  125:         if (fields[i].type === `InputDate` || fields[i].type === `InputDatetime`) {
+  126            if (field === fields[i].mapKey){
+  127              const mapKeyEl = document.getElementsByName(fields[i].mapKey)
+
+33 matches across 24 files
+
+
+Searching 260 files for "InputDate"
+
+/Users/listingslab/Desktop/Node/wanngi-light/src/components/JSXForm/forms/account/accountForm.jsx:
+   28      {
+   29        id: `account-dob`,
+   30:       type: `InputDatetime`,
+   31        label: `Date of Birth`,
+   32      },
+
+/Users/listingslab/Desktop/Node/wanngi-light/src/components/JSXForm/forms/account/profileForm.jsx:
+   15      {
+   16        id: `profile-dob`,
+   17:       type: `InputDate`,
+   18        label: `Date of Birth`,
+   19        helperText: `What should we call this profile?`
+
+/Users/listingslab/Desktop/Node/wanngi-light/src/components/JSXForm/forms/activities/cyclingForm.jsx:
+    8          {
+    9              id: `cycling-date`,
+   10:             type: `InputDate`,
+   11              label: `Start Date`,
+   12              required: true,
+
+/Users/listingslab/Desktop/Node/wanngi-light/src/components/JSXForm/forms/activities/otherActivityForm.jsx:
+    8          {
+    9              id: `other-activity-date`,
+   10:             type: `InputDate`,
+   11              label: `Start Date`,
+   12              required: true,
+
+/Users/listingslab/Desktop/Node/wanngi-light/src/components/JSXForm/forms/activities/runningForm.jsx:
+    8          {
+    9              id: `running-date`,
+   10:             type: `InputDate`,
+   11              label: `Start Date`,
+   12              required: true,
+
+/Users/listingslab/Desktop/Node/wanngi-light/src/components/JSXForm/forms/activities/sleepingForm.jsx:
+    7          {
+    8              id: `sleeping-start-date`,
+    9:             type: `InputDate`,
+   10              label: `Start Date`,
+   11              required: true,
+   ..
+   21          {
+   22              id: `sleeping-end-date`,
+   23:             type: `InputDate`,
+   24              label: `End Date`,
+   25              required: true,
+
+/Users/listingslab/Desktop/Node/wanngi-light/src/components/JSXForm/forms/activities/walkingForm.jsx:
+    7          {
+    8              id: `walking-date`,
+    9:             type: `InputDate`,
+   10              label: `Start Date`,
+   11              required: true,
+
+/Users/listingslab/Desktop/Node/wanngi-light/src/components/JSXForm/forms/activities/waterForm.jsx:
+    7          {
+    8              id: `water-date`,
+    9:             type: `InputDate`,
+   10              label: `Start Date`,
+   11              required: true,
+
+/Users/listingslab/Desktop/Node/wanngi-light/src/components/JSXForm/forms/activities/weighingForm.jsx:
+    7          {
+    8              id: `weighing-date`,
+    9:             type: `InputDate`,
+   10              label: `Start Date`,
+   11              required: true,
+
+/Users/listingslab/Desktop/Node/wanngi-light/src/components/JSXForm/forms/personal-health/allergyForm.jsx:
+   55              label: `Identified`,
+   56              mapKey: `dateIdentified`,
+   57:             type: `InputDate`,
+   58              dateFormat: `MMMM  YYYY`,
+   59              defaultValue: null,
+
+/Users/listingslab/Desktop/Node/wanngi-light/src/components/JSXForm/forms/personal-health/appointmentForm.jsx:
+   39              mapKey: `start`,
+   40              required: true,
+   41:             type: `InputDatetime`,
+   42              defaultValue: null,
+   43              dateFormat: `dddd Do MMMM YYYY, h:mm a`,
+
+/Users/listingslab/Desktop/Node/wanngi-light/src/components/JSXForm/forms/personal-health/diagnosticImagingForm.jsx:
+   30              id: `time`,
+   31              mapKey: `observed`,
+   32:             type: `InputDate`,
+   33              dateFormat: `dddd Do MMMM YYYY`,
+   34              defaultValue: null,
+
+/Users/listingslab/Desktop/Node/wanngi-light/src/components/JSXForm/forms/personal-health/hospitalVisitForm.jsx:
+   38              mapKey: `start`,
+   39              required: true,
+   40:             type: `InputDate`,
+   41              label: `Admission Date`,
+   42              dateFormat: `dddd Do MMMM YYYY`,
+   ..
+   46              id: `end`,
+   47              mapKey: `end`,
+   48:             type: `InputDate`,
+   49              label: `Discharge Date`,
+   50              dateFormat: `dddd Do MMMM YYYY`,
+
+/Users/listingslab/Desktop/Node/wanngi-light/src/components/JSXForm/forms/personal-health/immunisationForm.jsx:
+   37              mapKey: `occurred`,
+   38              required: true,
+   39:             type: `InputDate`,
+   40              dateFormat: `dddd Do MMMM YYYY`,
+   41              defaultValue: null,
+
+/Users/listingslab/Desktop/Node/wanngi-light/src/components/JSXForm/forms/personal-health/medicationForm.jsx:
+   29  			required: true,
+   30  			mapKey: `start`,
+   31: 			type: `InputDate`,
+   32  			dateFormat: `Do MMMM YYYY`,
+   33  			label: `Date Prescribed`,
+   ..
+   49  		{
+   50  			mapKey: `end`,
+   51: 			type: `InputDate`,
+   52  			dateFormat: `Do MMMM YYYY`,
+   53  			label: `Date Finished`,
+
+/Users/listingslab/Desktop/Node/wanngi-light/src/components/JSXForm/forms/personal-health/pathologyForm.jsx:
+   29              mapKey: `observed`,
+   30              required: true,
+   31:             type: `InputDate`,
+   32              dateFormat: `dddd Do MMMM YYYY`,
+   33              label: `Date`,
+
+/Users/listingslab/Desktop/Node/wanngi-light/src/components/JSXForm/forms/personal-health/referralForm.jsx:
+   40              dateFormat: `dddd Do MMMM YYYY`,
+   41              required: true,
+   42:             type: `InputDate`,
+   43              defaultValue: null,
+   44              label: `Date Reffered`,
+   ..
+   49              required: true,
+   50              defaultValue: null,
+   51:             type: `InputDate`,
+   52              dateFormat: `dddd Do MMMM YYYY`,
+   53              label: `Expiry Date`,
+
+/Users/listingslab/Desktop/Node/wanngi-light/src/components/JSXForm/forms/personal-health/symptomForm.jsx:
+   35              mapKey: `issued`,
+   36              required: true,
+   37:             type: `InputDatetime`,
+   38              dateFormat: `dddd Do MMMM YYYY, h:mm a`,
+   39              
+
+/Users/listingslab/Desktop/Node/wanngi-light/src/components/JSXForm/index.jsx:
+    2  import Attachments from './Attachments'
+    3  import ViewAttachment from './ViewAttachment'
+    4: import InputDatetime from './Inputs/InputDatetime'
+    5  import InputTime from './Inputs/InputTime'
+    6  import InputString from './Inputs/InputString'
+    .
+   14  	Attachments,
+   15  	ViewAttachment,
+   16: 	InputDatetime,
+   17  	InputTime,
+   18  	InputString,
+
+/Users/listingslab/Desktop/Node/wanngi-light/src/components/JSXForm/Inputs/InputDatetime.jsx:
+   14  }))
+   15  
+   16: export default function InputDatetime(props) {
+   17  	
+   18  	const classes = useStyles()
+
+/Users/listingslab/Desktop/Node/wanngi-light/src/components/JSXForm/JSXForm.jsx:
+    8  import MomentUtils from '@date-io/moment'
+    9  import {
+   10:   InputDatetime,
+   11    InputTime,
+   12    InputString,
+   ..
+   55                                  />
+   56                              break                            
+   57:                     case `InputDatetime`:
+   58:                         field = <InputDatetime 
+   59                                    options={item} 
+   60                                    onFormChange={ onFormChange } 
+
+/Users/listingslab/Desktop/Node/wanngi-light/src/components/JSXForm/README.md:
+   84              id: `dateIdentified`,
+   85              mapKey: `dateIdentified`,
+   86:             type: `InputDatetime`,
+   87              helperText: `DD/MM/YYYY`,
+   88          },
+
+/Users/listingslab/Desktop/Node/wanngi-light/src/pages/PersonalHealth/FormDialog.jsx:
+  123            }
+  124          }
+  125:         if (fields[i].type === `InputDate` || fields[i].type === `InputDatetime`) {
+  126            if (field === fields[i].mapKey){
+  127              const mapKeyEl = document.getElementsByName(fields[i].mapKey)
+
+32 matches across 23 files
+
+
+Searching 260 files for "InputDate"
+
+/Users/listingslab/Desktop/Node/wanngi-light/src/components/JSXForm/forms/account/accountForm.jsx:
+   28      {
+   29        id: `account-dob`,
+   30:       type: `InputDatetime`,
+   31        label: `Date of Birth`,
+   32      },
+
+/Users/listingslab/Desktop/Node/wanngi-light/src/components/JSXForm/forms/account/profileForm.jsx:
+   15      {
+   16        id: `profile-dob`,
+   17:       type: `InputDatetime`,
+   18        label: `Date of Birth`,
+   19        helperText: `What should we call this profile?`
+
+/Users/listingslab/Desktop/Node/wanngi-light/src/components/JSXForm/forms/activities/cyclingForm.jsx:
+    8          {
+    9              id: `cycling-date`,
+   10:             type: `InputDate`,
+   11              label: `Start Date`,
+   12              required: true,
+
+/Users/listingslab/Desktop/Node/wanngi-light/src/components/JSXForm/forms/activities/otherActivityForm.jsx:
+    8          {
+    9              id: `other-activity-date`,
+   10:             type: `InputDate`,
+   11              label: `Start Date`,
+   12              required: true,
+
+/Users/listingslab/Desktop/Node/wanngi-light/src/components/JSXForm/forms/activities/runningForm.jsx:
+    8          {
+    9              id: `running-date`,
+   10:             type: `InputDate`,
+   11              label: `Start Date`,
+   12              required: true,
+
+/Users/listingslab/Desktop/Node/wanngi-light/src/components/JSXForm/forms/activities/sleepingForm.jsx:
+    7          {
+    8              id: `sleeping-start-date`,
+    9:             type: `InputDate`,
+   10              label: `Start Date`,
+   11              required: true,
+   ..
+   21          {
+   22              id: `sleeping-end-date`,
+   23:             type: `InputDate`,
+   24              label: `End Date`,
+   25              required: true,
+
+/Users/listingslab/Desktop/Node/wanngi-light/src/components/JSXForm/forms/activities/walkingForm.jsx:
+    7          {
+    8              id: `walking-date`,
+    9:             type: `InputDate`,
+   10              label: `Start Date`,
+   11              required: true,
+
+/Users/listingslab/Desktop/Node/wanngi-light/src/components/JSXForm/forms/activities/waterForm.jsx:
+    7          {
+    8              id: `water-date`,
+    9:             type: `InputDate`,
+   10              label: `Start Date`,
+   11              required: true,
+
+/Users/listingslab/Desktop/Node/wanngi-light/src/components/JSXForm/forms/activities/weighingForm.jsx:
+    7          {
+    8              id: `weighing-date`,
+    9:             type: `InputDate`,
+   10              label: `Start Date`,
+   11              required: true,
+
+/Users/listingslab/Desktop/Node/wanngi-light/src/components/JSXForm/forms/personal-health/allergyForm.jsx:
+   55              label: `Identified`,
+   56              mapKey: `dateIdentified`,
+   57:             type: `InputDate`,
+   58              dateFormat: `MMMM  YYYY`,
+   59              defaultValue: null,
+
+/Users/listingslab/Desktop/Node/wanngi-light/src/components/JSXForm/forms/personal-health/appointmentForm.jsx:
+   39              mapKey: `start`,
+   40              required: true,
+   41:             type: `InputDatetime`,
+   42              defaultValue: null,
+   43              dateFormat: `dddd Do MMMM YYYY, h:mm a`,
+
+/Users/listingslab/Desktop/Node/wanngi-light/src/components/JSXForm/forms/personal-health/diagnosticImagingForm.jsx:
+   30              id: `time`,
+   31              mapKey: `observed`,
+   32:             type: `InputDate`,
+   33              dateFormat: `dddd Do MMMM YYYY`,
+   34              defaultValue: null,
+
+/Users/listingslab/Desktop/Node/wanngi-light/src/components/JSXForm/forms/personal-health/hospitalVisitForm.jsx:
+   38              mapKey: `start`,
+   39              required: true,
+   40:             type: `InputDate`,
+   41              label: `Admission Date`,
+   42              dateFormat: `dddd Do MMMM YYYY`,
+   ..
+   46              id: `end`,
+   47              mapKey: `end`,
+   48:             type: `InputDate`,
+   49              label: `Discharge Date`,
+   50              dateFormat: `dddd Do MMMM YYYY`,
+
+/Users/listingslab/Desktop/Node/wanngi-light/src/components/JSXForm/forms/personal-health/immunisationForm.jsx:
+   37              mapKey: `occurred`,
+   38              required: true,
+   39:             type: `InputDate`,
+   40              dateFormat: `dddd Do MMMM YYYY`,
+   41              defaultValue: null,
+
+/Users/listingslab/Desktop/Node/wanngi-light/src/components/JSXForm/forms/personal-health/medicationForm.jsx:
+   29  			required: true,
+   30  			mapKey: `start`,
+   31: 			type: `InputDate`,
+   32  			dateFormat: `Do MMMM YYYY`,
+   33  			label: `Date Prescribed`,
+   ..
+   49  		{
+   50  			mapKey: `end`,
+   51: 			type: `InputDate`,
+   52  			dateFormat: `Do MMMM YYYY`,
+   53  			label: `Date Finished`,
+
+/Users/listingslab/Desktop/Node/wanngi-light/src/components/JSXForm/forms/personal-health/pathologyForm.jsx:
+   29              mapKey: `observed`,
+   30              required: true,
+   31:             type: `InputDate`,
+   32              dateFormat: `dddd Do MMMM YYYY`,
+   33              label: `Date`,
+
+/Users/listingslab/Desktop/Node/wanngi-light/src/components/JSXForm/forms/personal-health/referralForm.jsx:
+   40              dateFormat: `dddd Do MMMM YYYY`,
+   41              required: true,
+   42:             type: `InputDate`,
+   43              defaultValue: null,
+   44              label: `Date Reffered`,
+   ..
+   49              required: true,
+   50              defaultValue: null,
+   51:             type: `InputDate`,
+   52              dateFormat: `dddd Do MMMM YYYY`,
+   53              label: `Expiry Date`,
+
+/Users/listingslab/Desktop/Node/wanngi-light/src/components/JSXForm/forms/personal-health/symptomForm.jsx:
+   35              mapKey: `issued`,
+   36              required: true,
+   37:             type: `InputDatetime`,
+   38              dateFormat: `dddd Do MMMM YYYY, h:mm a`,
+   39              
+
+/Users/listingslab/Desktop/Node/wanngi-light/src/components/JSXForm/index.jsx:
+    2  import Attachments from './Attachments'
+    3  import ViewAttachment from './ViewAttachment'
+    4: import InputDatetime from './Inputs/InputDatetime'
+    5  import InputTime from './Inputs/InputTime'
+    6  import InputString from './Inputs/InputString'
+    .
+   14  	Attachments,
+   15  	ViewAttachment,
+   16: 	InputDatetime,
+   17  	InputTime,
+   18  	InputString,
+
+/Users/listingslab/Desktop/Node/wanngi-light/src/components/JSXForm/Inputs/InputDatetime.jsx:
+   14  }))
+   15  
+   16: export default function InputDatetime(props) {
+   17  	
+   18  	const classes = useStyles()
+
+/Users/listingslab/Desktop/Node/wanngi-light/src/components/JSXForm/JSXForm.jsx:
+    8  import MomentUtils from '@date-io/moment'
+    9  import {
+   10:   InputDatetime,
+   11    InputTime,
+   12    InputString,
+   ..
+   55                                  />
+   56                              break                            
+   57:                     case `InputDatetime`:
+   58:                         field = <InputDatetime 
+   59                                    options={item} 
+   60                                    onFormChange={ onFormChange } 
+
+/Users/listingslab/Desktop/Node/wanngi-light/src/components/JSXForm/README.md:
+   84              id: `dateIdentified`,
+   85              mapKey: `dateIdentified`,
+   86:             type: `InputDatetime`,
+   87              helperText: `DD/MM/YYYY`,
+   88          },
+
+/Users/listingslab/Desktop/Node/wanngi-light/src/pages/PersonalHealth/FormDialog.jsx:
+  123            }
+  124          }
+  125:         if (fields[i].type === `InputDate` || fields[i].type === `InputDatetime`) {
+  126            if (field === fields[i].mapKey){
+  127              const mapKeyEl = document.getElementsByName(fields[i].mapKey)
+
+32 matches across 23 files
+
+
+Searching 260 files for "InputDate"
+
+/Users/listingslab/Desktop/Node/wanngi-light/src/components/JSXForm/forms/account/accountForm.jsx:
+   28      {
+   29        id: `account-dob`,
+   30:       type: `InputDatetime`,
+   31        label: `Date of Birth`,
+   32      },
+
+/Users/listingslab/Desktop/Node/wanngi-light/src/components/JSXForm/forms/account/profileForm.jsx:
+   15      {
+   16        id: `profile-dob`,
+   17:       type: `InputDatetime`,
+   18        label: `Date of Birth`,
+   19        helperText: `What should we call this profile?`
+
+/Users/listingslab/Desktop/Node/wanngi-light/src/components/JSXForm/forms/activities/cyclingForm.jsx:
+    8          {
+    9              id: `cycling-date`,
+   10:             type: `InputDatetime`,
+   11              label: `Start Date`,
+   12              required: true,
+
+/Users/listingslab/Desktop/Node/wanngi-light/src/components/JSXForm/forms/activities/otherActivityForm.jsx:
+    8          {
+    9              id: `other-activity-date`,
+   10:             type: `InputDate`,
+   11              label: `Start Date`,
+   12              required: true,
+
+/Users/listingslab/Desktop/Node/wanngi-light/src/components/JSXForm/forms/activities/runningForm.jsx:
+    8          {
+    9              id: `running-date`,
+   10:             type: `InputDate`,
+   11              label: `Start Date`,
+   12              required: true,
+
+/Users/listingslab/Desktop/Node/wanngi-light/src/components/JSXForm/forms/activities/sleepingForm.jsx:
+    7          {
+    8              id: `sleeping-start-date`,
+    9:             type: `InputDate`,
+   10              label: `Start Date`,
+   11              required: true,
+   ..
+   21          {
+   22              id: `sleeping-end-date`,
+   23:             type: `InputDate`,
+   24              label: `End Date`,
+   25              required: true,
+
+/Users/listingslab/Desktop/Node/wanngi-light/src/components/JSXForm/forms/activities/walkingForm.jsx:
+    7          {
+    8              id: `walking-date`,
+    9:             type: `InputDate`,
+   10              label: `Start Date`,
+   11              required: true,
+
+/Users/listingslab/Desktop/Node/wanngi-light/src/components/JSXForm/forms/activities/waterForm.jsx:
+    7          {
+    8              id: `water-date`,
+    9:             type: `InputDate`,
+   10              label: `Start Date`,
+   11              required: true,
+
+/Users/listingslab/Desktop/Node/wanngi-light/src/components/JSXForm/forms/activities/weighingForm.jsx:
+    7          {
+    8              id: `weighing-date`,
+    9:             type: `InputDate`,
+   10              label: `Start Date`,
+   11              required: true,
+
+/Users/listingslab/Desktop/Node/wanngi-light/src/components/JSXForm/forms/personal-health/allergyForm.jsx:
+   55              label: `Identified`,
+   56              mapKey: `dateIdentified`,
+   57:             type: `InputDate`,
+   58              dateFormat: `MMMM  YYYY`,
+   59              defaultValue: null,
+
+/Users/listingslab/Desktop/Node/wanngi-light/src/components/JSXForm/forms/personal-health/appointmentForm.jsx:
+   39              mapKey: `start`,
+   40              required: true,
+   41:             type: `InputDatetime`,
+   42              defaultValue: null,
+   43              dateFormat: `dddd Do MMMM YYYY, h:mm a`,
+
+/Users/listingslab/Desktop/Node/wanngi-light/src/components/JSXForm/forms/personal-health/diagnosticImagingForm.jsx:
+   30              id: `time`,
+   31              mapKey: `observed`,
+   32:             type: `InputDate`,
+   33              dateFormat: `dddd Do MMMM YYYY`,
+   34              defaultValue: null,
+
+/Users/listingslab/Desktop/Node/wanngi-light/src/components/JSXForm/forms/personal-health/hospitalVisitForm.jsx:
+   38              mapKey: `start`,
+   39              required: true,
+   40:             type: `InputDate`,
+   41              label: `Admission Date`,
+   42              dateFormat: `dddd Do MMMM YYYY`,
+   ..
+   46              id: `end`,
+   47              mapKey: `end`,
+   48:             type: `InputDate`,
+   49              label: `Discharge Date`,
+   50              dateFormat: `dddd Do MMMM YYYY`,
+
+/Users/listingslab/Desktop/Node/wanngi-light/src/components/JSXForm/forms/personal-health/immunisationForm.jsx:
+   37              mapKey: `occurred`,
+   38              required: true,
+   39:             type: `InputDate`,
+   40              dateFormat: `dddd Do MMMM YYYY`,
+   41              defaultValue: null,
+
+/Users/listingslab/Desktop/Node/wanngi-light/src/components/JSXForm/forms/personal-health/medicationForm.jsx:
+   29  			required: true,
+   30  			mapKey: `start`,
+   31: 			type: `InputDate`,
+   32  			dateFormat: `Do MMMM YYYY`,
+   33  			label: `Date Prescribed`,
+   ..
+   49  		{
+   50  			mapKey: `end`,
+   51: 			type: `InputDate`,
+   52  			dateFormat: `Do MMMM YYYY`,
+   53  			label: `Date Finished`,
+
+/Users/listingslab/Desktop/Node/wanngi-light/src/components/JSXForm/forms/personal-health/pathologyForm.jsx:
+   29              mapKey: `observed`,
+   30              required: true,
+   31:             type: `InputDate`,
+   32              dateFormat: `dddd Do MMMM YYYY`,
+   33              label: `Date`,
+
+/Users/listingslab/Desktop/Node/wanngi-light/src/components/JSXForm/forms/personal-health/referralForm.jsx:
+   40              dateFormat: `dddd Do MMMM YYYY`,
+   41              required: true,
+   42:             type: `InputDate`,
+   43              defaultValue: null,
+   44              label: `Date Reffered`,
+   ..
+   49              required: true,
+   50              defaultValue: null,
+   51:             type: `InputDate`,
+   52              dateFormat: `dddd Do MMMM YYYY`,
+   53              label: `Expiry Date`,
+
+/Users/listingslab/Desktop/Node/wanngi-light/src/components/JSXForm/forms/personal-health/symptomForm.jsx:
+   35              mapKey: `issued`,
+   36              required: true,
+   37:             type: `InputDatetime`,
+   38              dateFormat: `dddd Do MMMM YYYY, h:mm a`,
+   39              
+
+/Users/listingslab/Desktop/Node/wanngi-light/src/components/JSXForm/index.jsx:
+    2  import Attachments from './Attachments'
+    3  import ViewAttachment from './ViewAttachment'
+    4: import InputDatetime from './Inputs/InputDatetime'
+    5  import InputTime from './Inputs/InputTime'
+    6  import InputString from './Inputs/InputString'
+    .
+   14  	Attachments,
+   15  	ViewAttachment,
+   16: 	InputDatetime,
+   17  	InputTime,
+   18  	InputString,
+
+/Users/listingslab/Desktop/Node/wanngi-light/src/components/JSXForm/Inputs/InputDatetime.jsx:
+   14  }))
+   15  
+   16: export default function InputDatetime(props) {
+   17  	
+   18  	const classes = useStyles()
+
+/Users/listingslab/Desktop/Node/wanngi-light/src/components/JSXForm/JSXForm.jsx:
+    8  import MomentUtils from '@date-io/moment'
+    9  import {
+   10:   InputDatetime,
+   11    InputTime,
+   12    InputString,
+   ..
+   55                                  />
+   56                              break                            
+   57:                     case `InputDatetime`:
+   58:                         field = <InputDatetime 
+   59                                    options={item} 
+   60                                    onFormChange={ onFormChange } 
+
+/Users/listingslab/Desktop/Node/wanngi-light/src/components/JSXForm/README.md:
+   84              id: `dateIdentified`,
+   85              mapKey: `dateIdentified`,
+   86:             type: `InputDatetime`,
+   87              helperText: `DD/MM/YYYY`,
+   88          },
+
+/Users/listingslab/Desktop/Node/wanngi-light/src/pages/PersonalHealth/FormDialog.jsx:
+  123            }
+  124          }
+  125:         if (fields[i].type === `InputDate` || fields[i].type === `InputDatetime`) {
+  126            if (field === fields[i].mapKey){
+  127              const mapKeyEl = document.getElementsByName(fields[i].mapKey)
+
+32 matches across 23 files
+
+
+Searching 260 files for "type: `InputDate`,"
+
+/Users/listingslab/Desktop/Node/wanngi-light/src/components/JSXForm/forms/activities/runningForm.jsx:
+    8          {
+    9              id: `running-date`,
+   10:             type: `InputDate`,
+   11              label: `Start Date`,
+   12              required: true,
+
+/Users/listingslab/Desktop/Node/wanngi-light/src/components/JSXForm/forms/activities/sleepingForm.jsx:
+    7          {
+    8              id: `sleeping-start-date`,
+    9:             type: `InputDate`,
+   10              label: `Start Date`,
+   11              required: true,
+   ..
+   21          {
+   22              id: `sleeping-end-date`,
+   23:             type: `InputDate`,
+   24              label: `End Date`,
+   25              required: true,
+
+/Users/listingslab/Desktop/Node/wanngi-light/src/components/JSXForm/forms/activities/walkingForm.jsx:
+    7          {
+    8              id: `walking-date`,
+    9:             type: `InputDate`,
+   10              label: `Start Date`,
+   11              required: true,
+
+/Users/listingslab/Desktop/Node/wanngi-light/src/components/JSXForm/forms/activities/waterForm.jsx:
+    7          {
+    8              id: `water-date`,
+    9:             type: `InputDate`,
+   10              label: `Start Date`,
+   11              required: true,
+
+/Users/listingslab/Desktop/Node/wanngi-light/src/components/JSXForm/forms/activities/weighingForm.jsx:
+    7          {
+    8              id: `weighing-date`,
+    9:             type: `InputDate`,
+   10              label: `Start Date`,
+   11              required: true,
+
+/Users/listingslab/Desktop/Node/wanngi-light/src/components/JSXForm/forms/personal-health/allergyForm.jsx:
+   55              label: `Identified`,
+   56              mapKey: `dateIdentified`,
+   57:             type: `InputDate`,
+   58              dateFormat: `MMMM  YYYY`,
+   59              defaultValue: null,
+
+/Users/listingslab/Desktop/Node/wanngi-light/src/components/JSXForm/forms/personal-health/diagnosticImagingForm.jsx:
+   30              id: `time`,
+   31              mapKey: `observed`,
+   32:             type: `InputDate`,
+   33              dateFormat: `dddd Do MMMM YYYY`,
+   34              defaultValue: null,
+
+/Users/listingslab/Desktop/Node/wanngi-light/src/components/JSXForm/forms/personal-health/hospitalVisitForm.jsx:
+   38              mapKey: `start`,
+   39              required: true,
+   40:             type: `InputDate`,
+   41              label: `Admission Date`,
+   42              dateFormat: `dddd Do MMMM YYYY`,
+   ..
+   46              id: `end`,
+   47              mapKey: `end`,
+   48:             type: `InputDate`,
+   49              label: `Discharge Date`,
+   50              dateFormat: `dddd Do MMMM YYYY`,
+
+/Users/listingslab/Desktop/Node/wanngi-light/src/components/JSXForm/forms/personal-health/immunisationForm.jsx:
+   37              mapKey: `occurred`,
+   38              required: true,
+   39:             type: `InputDate`,
+   40              dateFormat: `dddd Do MMMM YYYY`,
+   41              defaultValue: null,
+
+/Users/listingslab/Desktop/Node/wanngi-light/src/components/JSXForm/forms/personal-health/medicationForm.jsx:
+   29  			required: true,
+   30  			mapKey: `start`,
+   31: 			type: `InputDate`,
+   32  			dateFormat: `Do MMMM YYYY`,
+   33  			label: `Date Prescribed`,
+   ..
+   49  		{
+   50  			mapKey: `end`,
+   51: 			type: `InputDate`,
+   52  			dateFormat: `Do MMMM YYYY`,
+   53  			label: `Date Finished`,
+
+/Users/listingslab/Desktop/Node/wanngi-light/src/components/JSXForm/forms/personal-health/pathologyForm.jsx:
+   29              mapKey: `observed`,
+   30              required: true,
+   31:             type: `InputDate`,
+   32              dateFormat: `dddd Do MMMM YYYY`,
+   33              label: `Date`,
+
+/Users/listingslab/Desktop/Node/wanngi-light/src/components/JSXForm/forms/personal-health/referralForm.jsx:
+   40              dateFormat: `dddd Do MMMM YYYY`,
+   41              required: true,
+   42:             type: `InputDate`,
+   43              defaultValue: null,
+   44              label: `Date Reffered`,
+   ..
+   49              required: true,
+   50              defaultValue: null,
+   51:             type: `InputDate`,
+   52              dateFormat: `dddd Do MMMM YYYY`,
+   53              label: `Expiry Date`,
+
+16 matches across 12 files

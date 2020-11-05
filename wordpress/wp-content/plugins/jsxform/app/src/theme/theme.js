@@ -3,29 +3,13 @@ export const theme = {
   palette: {
     type: 'light',
     primary: {
-      main: 'rgba(98,32,186, 1)', // purple
+      main: '#f8ae00', // orange
     },
     secondary: {
-      main: 'rgba(170,34,205, 1)', // light purple
+      main: '#5baee8', // blue
     },
-    background: {
-      default: '#f3f6ff', // light blue
-      paper: '#FFFFFF',
-    },
-    success: {
-      main: '#85CCD4', // green
-    },
-    info: {
-      main: '#85CCD4', // green
-    },
-    warning: {
-      main: '#FAC232', // yellow
-    },
-    error: {
-      main: '#FFFFFF', // red #F59395
-    },
-    borders: {
-      main: '#aa22cd', // purple
-    },
+    error:{
+      main: '#FFF',
+    }
   }
 }

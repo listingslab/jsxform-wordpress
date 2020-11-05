@@ -43,6 +43,7 @@ import IconShare from '@material-ui/icons/Share'
 import IconList from '@material-ui/icons/List'
 import IconLogout from '@material-ui/icons/ExitToApp'
 import IconLogin from '@material-ui/icons/ExitToApp'
+import IconSend from '@material-ui/icons/Send'
 import IconVideo from '@material-ui/icons/Movie'
 import IconLight from '@material-ui/icons/Brightness5'
 import IconDark from '@material-ui/icons/Brightness4'
@@ -122,6 +123,9 @@ class Icon extends Component {
             case `filter`:
                 return (<IconFilter color={iconColor} />)
 
+            case `send`:
+                return (<IconSend color={iconColor} />)
+
             case `sortup`:
                 return (<IconSortUp color={iconColor} />)
 
@@ -191,7 +195,7 @@ class Icon extends Component {
             case `close`:
                 return (<IconClose color={iconColor} />)
 
-           case `payments`:
+            case `payments`:
                 return (<IconCart color={iconColor} />)   
 
             case `cart`:
@@ -205,6 +209,7 @@ class Icon extends Component {
 
             case 'medication': 
                 return <Medications style={size} color={iconColor} />
+            
             case 'medications': 
                 return <Medications style={size} color={iconColor} />
 
@@ -223,6 +228,7 @@ class Icon extends Component {
 
             case 'documents': 
                 return <Documents style={size} color={iconColor} />
+            
             case 'healthforecast': 
                 return <HealthForecast style={size} color={iconColor} />
 
@@ -255,6 +261,7 @@ class Icon extends Component {
 
             case 'allergy': 
                 return <Allergies style={size} color={iconColor} />
+            
             case 'allergies': 
                 return <Allergies style={size} color={iconColor} />
 

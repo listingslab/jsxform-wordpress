@@ -1,11 +1,9 @@
 import moment from 'moment'
 
 export const allergyForm = {
-    title: `Allergy Form`,
-    reduxKey: `Allergy`,
-    description: `Manage your allergies`,
-    route: `/personal-health/allergy/`,
-    icon: `allergy`,
+    title: `Contact Form Example`,
+    description: `This is an example of JSX Form`,
+    icon: `api`,
     fields: [
         {
             label: `Allergen`,
@@ -53,14 +51,4 @@ export const allergyForm = {
             dateFormat: `MMMM YYYY`,
         },
     ],
-    dataShape: {
-        resourceType: `Allergy`,
-        patientId: `String`,
-        id: 0,
-        allergen: `String`,
-        reactions: [`String`, `String`],
-        severity: 0,
-        dateIdentified: `YYYY-MM-DDTHH:mm:ssZ`,
-        attachmentUrls: [`String`, `String`],
-    },
 }

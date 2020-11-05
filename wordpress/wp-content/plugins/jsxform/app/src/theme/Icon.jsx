@@ -31,7 +31,7 @@ import {
 } from './icons/'
 import IconDefault from '@material-ui/icons/Settings'
 import IconTime from '@material-ui/icons/CalendarToday'
-import IconAPI from '@material-ui/icons/Code'
+import IconAPI from '@material-ui/icons/Assignment'
 import IconCart from '@material-ui/icons/AddShoppingCart'
 import IconMenu from '@material-ui/icons/Menu'
 import IconClose from '@material-ui/icons/Close'

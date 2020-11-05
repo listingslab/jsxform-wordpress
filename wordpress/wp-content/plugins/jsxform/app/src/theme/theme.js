@@ -3,10 +3,11 @@ export const theme = {
   palette: {
     type: 'light',
     primary: {
-      main: '#f8ae00', // orange
+      main: '#5baee8', // blue
     },
     secondary: {
-      main: '#5baee8', // blue
+      main: '#f8ae00', // orange
+      
     },
     error:{
       main: '#FFF',

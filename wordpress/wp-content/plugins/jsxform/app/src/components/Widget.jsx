@@ -1,38 +1,29 @@
 import React from 'react'
 import { makeStyles } from '@material-ui/core/styles'
 import clsx from 'clsx'
-
 import {
+  Avatar,
   Button,
+  Collapse,
   Card,
+  CardHeader,
+  CardContent,
+  CardActions,
+  IconButton,
+  Typography,
 } from '@material-ui/core/'
-
-import CardHeader from '@material-ui/core/CardHeader'
-import CardMedia from '@material-ui/core/CardMedia'
-import CardContent from '@material-ui/core/CardContent'
-import CardActions from '@material-ui/core/CardActions'
-import Collapse from '@material-ui/core/Collapse'
-import Avatar from '@material-ui/core/Avatar'
-import IconButton from '@material-ui/core/IconButton'
-import Typography from '@material-ui/core/Typography'
-import { red } from '@material-ui/core/colors'
-import FavoriteIcon from '@material-ui/icons/Favorite'
-import ShareIcon from '@material-ui/icons/Share'
-import ExpandMoreIcon from '@material-ui/icons/ExpandMore'
-import MoreVertIcon from '@material-ui/icons/MoreVert'
-
-import svg from '../theme/svg/forms.svg'
-
 import { Icon } from '../theme'
+import { JSXForm } from '../components'
 
 const useStyles = makeStyles((theme) => ({
   widget: {
     marginBottom: theme.spacing(2),
-    maxWidth: 500,
+    maxWidth: 400,
   },
-  media: {
-    height: 0,
-    paddingTop: '56.25%', // 16:9
+  cardActions:{
+    width: '100%',
+    textAlign: 'right',
+    padding: theme.spacing(),
   },
   expand: {
     transform: 'rotate(0deg)',
@@ -75,6 +66,7 @@ export default function Widget() {
         }
         action={
           <IconButton
+            color={`secondary`}
             className={clsx(classes.expand, {
               [classes.expandOpen]: expanded,
             })}
@@ -94,22 +86,24 @@ export default function Widget() {
           guests. Add 1 cup of frozen peas along with the mussels, if you like.
         </Typography>
       </CardContent>
+
       <CardActions disableSpacing>
+        <div className={clsx(classes.cardActions)}>
         
-        <Button
-          variant={`contained`}
-          color={`primary`}
-          onClick={(e) => {
-            e.preventDefault()
-            console.log ('submit')
-          }}
-        >
-        <Icon icon={'send'} color={`error`} />
-        <span className={clsx(classes.btnTxt)}>
-          Send
-        </span>
-        </Button>
-        
+          <Button
+            variant={`contained`}
+            color={`primary`}
+            onClick={(e) => {
+              e.preventDefault()
+              console.log ('submit')
+            }}>
+            <span className={clsx(classes.btnTxt)}>
+              Send
+            </span>
+            <Icon icon={'send'} color={`error`} />
+          </Button>
+
+        </div>
       </CardActions>
 
       <Collapse in={expanded} timeout="auto" unmountOnExit>
@@ -124,12 +118,3 @@ export default function Widget() {
       </Collapse>
     </Card>
 }
-
-
-/*
-<CardMedia
-          className={classes.media}
-          image={svg}
-          title={title}
-        />
-*/

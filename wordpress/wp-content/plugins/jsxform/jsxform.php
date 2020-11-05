@@ -53,11 +53,15 @@ register_deactivation_hook( __FILE__, 'deactivate_jsxform' );
 
 require plugin_dir_path( __FILE__ ) . 'includes/class-jsxform.php';
 
+
 function run_jsxform() {
     require_once plugin_dir_path( __FILE__ ) . 'includes/class-jsxform-widget.php';
     $widget = new JSXForm_Widget();
 	$plugin = new Jsxform();
 	$plugin->run();
 
+
 }
+
 run_jsxform();
+

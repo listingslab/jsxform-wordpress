@@ -4,9 +4,9 @@ import {
 	makeStyles,
 	Typography,
 } from '@material-ui/core/'
-import {
-	ViewAttachment,
-} from './'
+// import {
+// 	ViewAttachment,
+// } from './'
 
 const useStyles = makeStyles(theme => ({
 	field: {
@@ -26,9 +26,7 @@ export default function Attachments(props) {
 				<Typography vairant={`h6`} gutterBottom>
 					Attachments
 				</Typography>
-				{ attachmentUrls.map( (item,i) => {
-					return <ViewAttachment key={`attachment_${i}`} url={item} />
-				})}
+				
 			</div>
 }
 
@@ -44,4 +42,10 @@ export default function Attachments(props) {
 <pre>
 	{ JSON.stringify(attachmentUrls, null, 2) }
 </pre>
+
+{ attachmentUrls.map( (item,i) => {
+					return <ViewAttachment key={`attachment_${i}`} url={item} />
+				})}
+
+				
 */

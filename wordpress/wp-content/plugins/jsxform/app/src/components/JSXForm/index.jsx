@@ -1,6 +1,6 @@
 import JSXForm from './JSXForm'
 import Attachments from './Attachments'
-import ViewAttachment from './ViewAttachment'
+// import ViewAttachment from './ViewAttachment'
 import InputDatetime from './Inputs/InputDatetime'
 import InputTime from './Inputs/InputTime'
 import InputString from './Inputs/InputString'
@@ -12,7 +12,7 @@ import InputDuration from './Inputs/InputDuration'
 export {
 	JSXForm,
 	Attachments,
-	ViewAttachment,
+	// ViewAttachment,
 	InputDatetime,
 	InputTime,
 	InputString,

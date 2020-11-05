@@ -6,13 +6,14 @@ import {
 } from '@material-ui/core/'
 import { theme } from './theme/'
 import {
-	JSXForm,
+	Widget
 } from './components'
+
 
 export default function App() {
 
 	return	<MuiThemeProvider theme={createMuiTheme(theme)}>
 				<CssBaseline />
-				<JSXForm />
+				<Widget />
 			</MuiThemeProvider>
 }
